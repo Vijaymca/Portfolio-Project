@@ -1,0 +1,609 @@
+body{
+  margin: 0;
+  margin-left: 1px;
+}
+header{
+  border: 1px solid black;
+    width: 1650px;
+    height: 150px;
+    background-color: black;
+    position: sticky;
+}
+#image1{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100px;
+height: 100px;
+transition: 2s;
+  }
+#develop{
+    margin-top: 50px;
+    float: right; 
+    margin-right: 50px;
+    border: none;
+    padding: 20px;
+    border-radius: 5rem;
+    transition: 2s;
+  }
+  #develop a{
+    border:none;
+    color: white;
+    border-radius: 1rem;
+    padding: 10px;
+    margin-left: 20px;
+    text-decoration: none; 
+  }
+  #develop a:hover{
+    border: 3px solid pink;
+    border-radius: 3rem 3rem;
+    border-right: 7px solid aqua;
+    border-left: 7px solid aqua;
+    background-color:pink;
+  }
+  /* ------------------------landing page---------------------- */
+  section{
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    width: 1650px;
+    height: 600px;
+    background-image: -moz-linear-gradient(45deg,black,white,black);
+    background-image: -webkit-linear-gradient(45deg,black,white,black);
+    background-image: -webkit-linear-gradient(45deg,black,white,black);
+    transition: 2s;
+  }
+marquee{
+  margin-top: 50px;
+    border: none;
+    margin-left: 200px;
+    width: 100px;
+    height: 430px;
+    transition: 2s;
+  }
+  marquee p{
+    text-align: center;
+    width: 40px;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-left: 30px;
+  }
+  #develop2{
+    border: none;
+    width: 400px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 800px; 
+    transition: 4s;
+  }
+#name{
+    color: white; 
+    border: none;
+    border-right: 5px solid skyblue;
+    border-bottom: 5px solid skyblue; 
+    background-color: gray;
+    border-radius: 2rem; 
+    padding: 10px; 
+    font-size: 20px;
+  }
+  #name:hover{
+    color: black;
+    border: none;
+    border-left: 5px solid skyblue;
+    border-top: 5px solid skyblue;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 10px; 
+    font-size: 20px;
+    transition: -1s;
+  }
+  /* ---------------------------------about-------------------------------------- */
+  #create{
+    border: 1px solid black;
+    height: 800px;
+    width: 1650px;
+    background-image: -moz-linear-gradient(-45deg,black,white,black);
+    background-image: -webkit-linear-gradient(-45deg,black,white,black);
+    background-image: -webkit-linear-gradient(-45deg,black,white,black);
+    display: flex;
+  }
+  .image2{
+    width: 250px;
+    height: 350px;
+    border: 50px solid black;
+    margin-top: 130px;
+    margin-left: 150px;
+  }
+  .image2:hover{
+    width: 350px;
+    height: 450px;
+    transition: 1s;
+  }
+  .gold{
+    border: 3px solid black;
+    color: white;
+    height: 20px;
+    margin-top: 90px;
+    margin-left: 1380px;
+    position: absolute;
+    color: white;
+    border-radius: 1rem;
+    padding: 10px;
+    text-decoration: none; 
+  }
+    .gold:hover{
+      border: 3px solid pink;
+      color: black;
+      height: 20px;
+      padding-bottom: 10px;
+      border-radius: 3rem ;
+      border-right: 7px solid aqua;
+      border-left: 7px solid aqua;
+      background-color:pink;
+      transition:.9s;
+    }
+  .two{
+    position: relative;
+    border: none;
+    padding: 1px;
+    margin-left: 300px;
+    margin-top: -20px;
+  }
+  .two p{
+    font-size: 20px;
+    font-weight:900;
+    border: none;
+    padding: 5px;
+    background-color: none;
+  }
+  .two p:hover{
+    border-radius: 2rem;
+    padding: 10px;
+    font-size: 20px;
+    font-weight:900;
+    background-color: black;
+    color: white;
+  }
+  #hey{
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  /*=--------------------------- github-------------------------- */
+  #github{
+    border: 1px solid black;
+    height: 800px;
+    width: 1650px;
+    background-image: -moz-linear-gradient(45deg,black,white,black);
+    background-image: -webkit-linear-gradient(45deg,black,white,black);
+    background-image: -webkit-linear-gradient(45deg,black,white,black);
+  }
+  .hold{
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+  }
+  .container{
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  .carousel{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 50s infinite forwards linear;
+  }
+  .image{
+    position: absolute;
+    width: 300px;
+    height: 187px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+  }
+  span{
+    margin: auto;
+    font-size: 2rem;
+  }
+  @keyframes rotate360{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-360deg);
+    }
+  }
+  .image:nth-child(1){
+    background-color: black;
+    transform: rotateY(0deg) translateZ(430px);
+  }
+  .image:nth-child(2){
+    background-color: black;
+    transform: rotateY(40deg) translateZ(430px);
+  }
+  .image:nth-child(3){
+    background-color: black;
+    transform: rotateY(80deg) translateZ(430px);
+  }.image:nth-child(4){
+    background-color: black;
+    transform: rotateY(120deg) translateZ(430px);
+  }.image:nth-child(5){
+    background-color: black;
+    transform: rotateY(160deg) translateZ(430px);
+  }.image:nth-child(6){
+    background-color: black;
+    transform: rotateY(200deg) translateZ(430px);
+  }.image:nth-child(7){
+    background-color: black;
+    transform: rotateY(240deg) translateZ(430px);
+  }.image:nth-child(8){
+    background-color: black;
+    transform: rotateY(280deg) translateZ(430px);
+  }.image:nth-child(9){
+    background-color: black;
+    transform: rotateY(320deg) translateZ(430px);
+  }.image:nth-child(10){
+    background-color: black;
+    transform: rotateY(360deg) translateZ(430px);
+  }
+  .image{
+    display: grid;
+  }
+  .make{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 50px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  .edit{
+    border: none;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    margin-left: 120px;
+    margin-top: -20px;
+  }
+  .delete{ 
+    border: none;
+    padding-bottom: 15px;
+    color: white;
+    height: 10px;
+    width: 70px;
+    margin-top: -9px;
+    margin-left: 110px;
+    text-decoration: none;
+  }
+  .golds{
+    border: 3px solid black;
+    color: white;
+    height: 20px;
+    margin-left: 1400px;
+      color: white;
+      border-radius: 1rem;
+      padding: 10px;
+      text-decoration: none; 
+  }
+    .golds:hover{
+      border: 3px solid pink;
+      color: black;
+      border-radius: 3rem ;
+      border-right: 7px solid aqua;
+      border-left: 7px solid aqua;
+      background-color:pink;
+      transition:.9s;
+    }
+    /*--------------------------------- skill --------------------------*/
+    #skill{
+      display: flex;
+      margin: 0;
+      border: 1px solid black;
+      height: 750px;
+      width: 1650px;
+      background-image: -moz-linear-gradient(-45deg,black,white,black);
+      background-image: -webkit-linear-gradient(-45deg,black,white,black);
+      background-image: -webkit-linear-gradient(-45deg,black,white,black);
+    }
+    #skill1{
+      display: flex;
+    }
+    #golden{
+      font-size: 20px;
+      text-decoration: none;
+      border: 3px solid black;
+      color: black;
+      margin-top: 100px;
+      border-radius: 1rem;
+      height: 20px;
+      padding: 10px;
+      margin-left: 400px;
+    }
+    #golden:hover{
+      border: 3px solid pink;
+          color: black;
+          height: 20px;
+          padding-bottom: 10px;
+          border-radius: 3rem ;
+          border-right: 7px solid aqua;
+          border-left: 7px solid aqua;
+          background-color:pink;
+          transition:.9s;
+    } 
+        .column1{
+      margin-left: 50px;
+      border: none; 
+      width: 300px;
+      height: 80px;
+      margin-top: 50px;
+    }
+    .column2{
+      border: none;
+      width: 300px;
+      height: 80px;
+      margin-left: 350px;
+      margin-top: 50px;
+    }
+    #skill1 img{
+      width: 300px;
+      height: 150px;
+      margin-left: 50px;
+      margin-top: 200px;
+      box-shadow: 10px 10px 10px 10px ;
+
+    }
+    #skill1 img:hover{
+      width: 320px;
+      height: 170px;
+      box-shadow: -10px -10px 10px 10px;
+    }
+    #run{
+      font-weight: 900;
+      border-color: white;
+      border-style:dashed dashed dotted double ;
+      padding: 10px;
+      width: 280px;
+      border-radius: 2rem 2rem;
+      margin-left: 40px;
+      margin-top: 100px;
+      font-size: 20px;
+    }
+    /* --------------------------------project --------------------------------------*/
+    #projects{
+    border: 1px solid black;
+    height:750px;
+    width: 1650px;
+     background-image: -moz-linear-gradient(45deg,black,white,black);
+    background-image: -webkit-linear-gradient(45deg,black,white,black);
+    background-image: -webkit-linear-gradient(45deg,black,white,black);   
+    }
+  #project1{
+    border: none;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 300px;
+    display: flex;
+  }
+  #project2{
+    border: none;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 500px;
+    display: flex;
+  }
+.photo{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 300px;
+  height: 240px;
+}
+.photo:hover{
+  width:400px;
+  height: 280px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: 1s;
+  box-shadow: 10px 10px 10px 10px blue;
+}
+#goldin{
+  font-size: 20px;
+  text-decoration: none;
+  border: 3px solid black;
+  color: black;
+  margin-top: -250px;
+  border-radius: 1rem;
+  height: 20px;
+  padding: 10px;
+  margin-left:500px;
+}
+#goldin:hover{
+  border: 3px solid pink;
+      color: black;
+      height: 20px;
+      padding-bottom: 10px;
+      border-radius: 3rem ;
+      border-right: 7px solid aqua;
+      border-left: 7px solid aqua;
+      background-color:pink;
+      transition:.9s;
+}
+/* --------------------------------------footer ---------------------------------*/
+#footer{
+  border: 1px solid black;
+  width: 1650px;
+  height: 850px;
+  background-image: -moz-linear-gradient(-45deg,black,white,black);
+  background-image: -webkit-linear-gradient(-45deg,black,white,black);
+  background-image: -webkit-linear-gradient(-45deg,black,white,black);
+}
+
+input{
+  height: 50px;
+  width: 250px;
+  font-size: 30px;
+}
+  #h10{
+    height: 200px;
+    width: 300px;
+  }
+  label{
+    text-align: right;
+    width: 11em;
+    float: left;
+    }
+    #contacts{
+      border: 1px solid black;
+     display: flex;
+     border: none;
+     width: 1650px;
+     height: 500px;
+    }
+    #left-column{
+      position: relative;
+     border: none;
+     margin-left: 70px;
+     margin-top: 30px;
+     width: 600px;
+     height: 300px;
+     font-size: 30px;
+    }
+    
+    .name{
+     margin-top: 100px;
+     margin-left: -70px;
+    }
+    #right-column{
+     border: none;
+     margin-left: 200px;
+     margin-top: 30px;
+     width: 600px;
+     height: 300px;
+     font-size: 30px;
+    }
+    #right-column button{
+      margin-left: 350px;
+    }
+    .row{
+     margin-left: 10px;
+     margin-top: 90px;
+    }
+    .feed{
+     margin-left: -130px;
+    }
+    button{
+      margin-top: 20px;
+      font-size: 30px;
+    }
+    .name button{
+     margin-left: 400px;
+     font-size: 30px;
+    }
+    #refer{
+     border: none;
+     margin-top: -20px;
+     margin-left: 600px;
+     padding: 20px;
+     width: 400px;
+    }
+    #refer img:hover{
+width: 60px;
+height: 60px;
+transition: 1s;
+    }
+    a{
+   margin-left: 30px;
+    }
+    .goldest{
+      font-size: 20px;
+      text-decoration: none;
+      border: 3px solid black;
+      color: black;
+      border-radius: 1rem;
+      height: 20px;
+      padding: 10px;
+      margin-left: -10px;
+      margin-top: 20px;
+    
+    }
+    .goldest:hover{
+      border: 3px solid pink;
+          color: black;
+          height: 20px;
+          padding-bottom: 10px;
+          border-radius: 3rem ;
+          border-right: 7px solid aqua;
+          border-left: 7px solid aqua;
+          background-color:pink;
+          transition:.9s;
+    }
+    /* ----------------------------------resume ----------------------*/
+    #resume{
+      width: 1650px;
+      border: 1px solid black;
+      display: flex;
+      background-image: -moz-linear-gradient(45deg,black,white,black);
+      background-image: -webkit-linear-gradient(45deg,black,white,black);
+      background-image: -webkit-linear-gradient(45deg,black,white,black);  
+    }
+    #resume img{
+      margin-left: 300px;
+      width: 1000px;
+      height: 1000px;
+    }
+    .goldest1{
+      font-size: 20px;
+      text-decoration: none;
+      border: 3px solid black;
+      color: black;
+      border-radius: 1rem;
+      height: 20px;
+      padding: 10px;
+      margin-left: 170px;
+      margin-top: 100px;
+    
+    }
+    .goldest1:hover{
+      border: 3px solid pink;
+          color: black;
+          height: 20px;
+          padding-bottom: 10px;
+          border-radius: 3rem ;
+          border-right: 7px solid aqua;
+          border-left: 7px solid aqua;
+          background-color:pink;
+          transition:.9s;
+    }
+    /* #bootstrap{
+      border: 1px solid black;
+      height:750px;
+      width: 1650px;
+       background-image: -moz-linear-gradient(45deg,black,white,black);
+      background-image: -webkit-linear-gradient(45deg,black,white,black);
+      background-image: -webkit-linear-gradient(45deg,black,white,black); 
+    }
+    #bootstrap button{
+      margin-top: 300px;
+      margin-left: 100px;
+    } */
+    @media screen and (max-width: 768px){
+      .nav{
+          position: fixed;
+          top: var(--header-height);
+          right: -100%;
+          width: 80%;
+          height: 100%;
+          padding: 2rem;
+          background-color: rgba(255,255,255,.3);
+          transition: .5s;
+          backdrop-filter: blur(10px);
+      }
+  }
+    
